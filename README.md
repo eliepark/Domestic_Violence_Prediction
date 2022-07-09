@@ -21,7 +21,7 @@ In this folder:
 
 3. Reddit Modeling
 	
-	- This tests three popular models used for NLP: Naive Bayes Classifier, Random Forest Classifier, and Logistic Regression. Best parameters are tested with `GridSearchCV` and feature importances and thresholding for the best model are shown. 
+	- This tests three popular models used for NLP: Naive Bayes Classifier, Random Forest Classifier, and Logistic Regression, on the processed dataset from (2). Best parameters are tested with `GridSearchCV` and feature importances and thresholding for the best model are shown. 
 	
 4. Twitter API 
 	
@@ -33,7 +33,7 @@ In this folder:
 
 6. Twitter Modeling
 	
-	- This also tests the same three models with `GridSearchCV` and shows the feature importances and thresholding process as in the Reddit modeling notebook. 
+	- This also tests the same three models on the data from (5) with `GridSearchCV` and shows the feature importances and thresholding process as in the Reddit modeling notebook. 
 
 7. Report
 	
