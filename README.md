@@ -1,6 +1,6 @@
 # Domestic Violence Prediction Project
 
-![](Domestic-Violence-and-Children.jpeg)
+![](https://dedwardslaw.com/wp-content/uploads/Domestic-Violence-and-Children.jpg)
 
 The rise of social media has contributed to an emergence of a virtual agora, where mass collection of textual data representing social and political attitudes is now possible through APIs. With the popular usage of social media as sources of mental health support, this is also applicable to the topic of domestic violence. 
 
