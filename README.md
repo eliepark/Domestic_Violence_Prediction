@@ -11,35 +11,35 @@ The NLP models used in these predictions can be applied to an alert system in on
 
 In this folder:
 
-1. Reddit Shelved Data
+1. [Reddit Shelved Data](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Reddit_Shelved_Data.ipynb)
 
 	- This pulls data from precompiled python shelves from [Nicholas Schrading's website](http://www.nicschrading.com/data/). We specifically used the even small set of submissions and comments datasets but there are others available. 
 
-2. Reddit EDA 
+2. [Reddit EDA](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Reddit_EDA.ipynb)
 
 	- Exploratory data analysis done with the exported data from (1), which involves cleaning, visualization, preprocessing, and tokenization for future modeling. Also uses the [Emotions Sensor Data](https://www.kaggle.com/datasets/iwilldoit/emotions-sensor-data-set) for preliminary emotion analysis. 
 
-3. Reddit Modeling
+3. [Reddit Modeling](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Reddit_Modeling.ipynb)
 	
 	- This tests three popular models used for NLP: Naive Bayes Classifier, Random Forest Classifier, and Logistic Regression, on the processed dataset from (2). Best parameters are tested with `GridSearchCV` and feature importances and thresholding for the best model are shown. 
 	
-4. Twitter API 
+4. [Twitter API](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Twitter_API.ipynb)
 	
 	- This pulls data from the Twitter API using the code from [Schrading's website](http://www.nicschrading.com/data/).  *must use own personal access token*
 
-5. Twitter EDA
+5. [Twitter EDA](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Twitter_EDA.ipynb)
 	
 	- Exploratory data analysis done with the exported data from (4), as in the Reddit EDA notebook.
 
-6. Twitter Modeling
+6. [Twitter Modeling](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Twitter_Modeling.ipynb)
 	
 	- This also tests the same three models on the data from (5) with `GridSearchCV` and shows the feature importances and thresholding process as in the Reddit modeling notebook. 
 
-7. Report
+7. [Report](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Report.pdf)
 	
 	- A 21-page report summarizing (1) to (6).
 
-8. Slides
+8. [Slides](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Slides.key)
 	
 	- A 24-slide presentation for the findings above.
 
