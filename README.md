@@ -27,11 +27,11 @@ In this folder:
 
 4. [Reddit EDA](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Reddit_EDA.ipynb)
 
-	- Exploratory data analysis done with the exported data from (1), which involves cleaning, visualization, preprocessing, and tokenization for future modeling. Also uses the [Emotions Sensor Data](https://www.kaggle.com/datasets/iwilldoit/emotions-sensor-data-set) for preliminary emotion analysis. 
+	- Exploratory data analysis done with the exported data from (3), which involves cleaning, visualization, preprocessing, and tokenization for future modeling. Also uses the [Emotions Sensor Data](https://www.kaggle.com/datasets/iwilldoit/emotions-sensor-data-set) for preliminary emotion analysis. 
 
 5. [Reddit Modeling](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Reddit_Modeling.ipynb)
 	
-	- This tests three popular models used for NLP: Naive Bayes Classifier, Random Forest Classifier, and Logistic Regression, on the processed dataset from (2). Best parameters are tested with `GridSearchCV` and feature importances and thresholding for the best model are shown. 
+	- This tests three popular models used for NLP: Naive Bayes Classifier, Random Forest Classifier, and Logistic Regression, on the processed dataset from (4). Best parameters are tested with `GridSearchCV` and feature importances and thresholding for the best model are shown. 
 	
 6. [Twitter API](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Twitter_API.ipynb)
 	
@@ -39,11 +39,11 @@ In this folder:
 
 7. [Twitter EDA](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Twitter_EDA.ipynb)
 	
-	- Exploratory data analysis done with the exported data from (4), as in the Reddit EDA notebook.
+	- Exploratory data analysis done with the exported data from (6), as in the Reddit EDA notebook.
 
 8. [Twitter Modeling](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Twitter_Modeling.ipynb)
 	
-	- This also tests the same three models on the data from (5) with `GridSearchCV` and shows the feature importances and thresholding process as in the Reddit modeling notebook. 
+	- This also tests the same three models on the data from (7) with `GridSearchCV` and shows the feature importances and thresholding process as in the Reddit modeling notebook. 
 
 
 
