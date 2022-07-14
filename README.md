@@ -46,6 +46,7 @@ In this folder:
 	- This also tests the same three models on the data from (7) with `GridSearchCV` and shows the feature importances and thresholding process as in the Reddit modeling notebook. 
 
 
+*The table of contents in the notebooks are not rendered with github. Please use nbviewer or import the files into jupyter notebook to use the ToC anchors.*
 
 
 Reference papers: [Reddit paper](https://aclanthology.org/D15-1309.pdf), [Twitter paper](https://aclanthology.org/N15-1139.pdf)
