@@ -23,11 +23,11 @@ In this folder:
 
 3. [Reddit Shelved Data](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Reddit_Shelved_Data.ipynb)
 
-	- This pulls data from precompiled python shelves from [Nicholas Schrading's website](http://www.nicschrading.com/data/). We specifically used the even small set of submissions and comments datasets but there are others available. 
+	- This pulls data from precompiled python shelves from [Nicholas Schrading's website](http://www.nicschrading.com/data/). We specifically used the even small set of submissions and comments datasets but there are others available. Exports 'reddit.csv'.
 
 4. [Reddit EDA](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Reddit_EDA.ipynb)
 
-	- Exploratory data analysis done with the exported data from (3), which involves cleaning, visualization, preprocessing, and tokenization for future modeling. Also uses the [Emotions Sensor Data](https://www.kaggle.com/datasets/iwilldoit/emotions-sensor-data-set) for preliminary emotion analysis. 
+	- Exploratory data analysis done with the exported data from (3), which involves cleaning, visualization, preprocessing, and tokenization for future modeling. Also uses the [Emotions Sensor Data](https://www.kaggle.com/datasets/iwilldoit/emotions-sensor-data-set) for preliminary emotion analysis. Exports 'Final_reddit.csv'.
 
 5. [Reddit Modeling](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Reddit_Modeling.ipynb)
 	
@@ -35,11 +35,11 @@ In this folder:
 	
 6. [Twitter API](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Twitter_API.ipynb)
 	
-	- This pulls data from the Twitter API using the code from [Schrading's website](http://www.nicschrading.com/data/).  *must use own personal access token*
+	- This pulls data from the Twitter API using the code from [Schrading's website](http://www.nicschrading.com/data/). Exports 'tweets.csv'. *must use own personal access token* 
 
 7. [Twitter EDA](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Twitter_EDA.ipynb)
 	
-	- Exploratory data analysis done with the exported data from (6), as in the Reddit EDA notebook.
+	- Exploratory data analysis done with the exported data from (6), as in the Reddit EDA notebook. Exports 'Final_twitter.xlsx'.
 
 8. [Twitter Modeling](https://github.com/eliepark/Domestic_Violence_Prediction/blob/main/Twitter_Modeling.ipynb)
 	
